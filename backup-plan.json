@@ -1,0 +1,19 @@
+{
+  "backupPlanName": "veda-task7-backup-plan",
+  "backupRule": {
+    "ruleName": "veda-task7-daily-backup",
+    "backupVault": "Default",
+    "schedule": "Daily at 18:30 IST",
+    "scheduleExpression": "cron(30 18 ? * * *)",
+    "timezone": "Asia/Calcutta",
+    "startWindowMinutes": 480,
+    "completionWindowMinutes": 10080,
+    "retentionDays": 7,
+    "coldStorage": false
+  },
+  "resourceAssignment": {
+    "name": "veda-task7-backup-resource",
+    "resourceType": "EBS",
+    "resourceId": "vol-037864d42b18d7edd"
+  }
+}
