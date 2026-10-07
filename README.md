@@ -17,7 +17,6 @@ To configure an automated backup schedule for an EBS volume, test the backup by 
 - Amazon EC2
 - Amazon EBS
 - AWS Backup
-- AWS Backup
 - IAM
 
 ---
